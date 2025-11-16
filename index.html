@@ -27,6 +27,28 @@ header p { color: #bbbbbb; margin-bottom: 15px; font-size: 1.1em; }
 .contact-buttons a:hover { background: #1a75d1; }
 .contact-buttons img { width: 20px; height: 20px; margin-right: 8px; }
 
+/* CV Button */
+.cv-button {
+  display: inline-flex;
+  align-items: center;
+  background: #1e90ff;
+  color: #fff;
+  padding: 12px 22px;
+  border-radius: 8px;
+  margin-top: 15px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.cv-button:hover {
+  background: #1a75d1;
+  text-decoration: none;
+}
+.cv-button img {
+  width:18px;
+  height:18px;
+  margin-right:8px;
+}
+
 /* Sections */
 section { margin-bottom: 40px; }
 section h2 { font-size: 1.8em; color: #1e90ff; margin-bottom: 20px; border-left: 5px solid #1e90ff; padding-left: 10px; }
@@ -55,21 +77,30 @@ footer { text-align: center; font-size: 0.9em; color: #aaaaaa; padding: 20px; }
 <body>
 
 <div class="container">
+
   <!-- Header -->
   <header>
     <h1>Mohammed Allehyani</h1>
     <p>Information Technology | Networking | Cybersecurity | IT Support</p>
+
     <div class="contact-buttons">
       <a href="mailto:moh9238mmoohh@gmail.com">
-        <img src="https://img.icons8.com/ios-glyphs/30/ffffff/new-post.png" alt="Email Icon"> Email
+        <img src="https://img.icons8.com/ios-glyphs/30/ffffff/new-post.png"> Email
       </a>
       <a href="https://www.linkedin.com/in/mohammed-allehyani" target="_blank">
-        <img src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png" alt="LinkedIn Icon"> LinkedIn
+        <img src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png"> LinkedIn
       </a>
       <a href="https://github.com/M0DY3" target="_blank">
-        <img src="https://img.icons8.com/ios-glyphs/30/ffffff/github.png" alt="GitHub Icon"> GitHub
+        <img src="https://img.icons8.com/ios-glyphs/30/ffffff/github.png"> GitHub
       </a>
     </div>
+
+    <!-- CV Download Button -->
+    <a href="Mohammed%20Allehyani%20.pdf" download class="cv-button">
+      <img src="https://img.icons8.com/ios-glyphs/30/ffffff/download.png">
+      Download CV (PDF)
+    </a>
+
     <p>Jeddah, Saudi Arabia | +966557883306</p>
   </header>
 
@@ -98,15 +129,16 @@ footer { text-align: center; font-size: 0.9em; color: #aaaaaa; padding: 20px; }
   <section>
     <h2>Experience</h2>
     <div class="card">
-      <img src="https://i.postimg.cc/DzCFHw4C/stc.png" alt="STC Logo">
+      <img src="https://i.postimg.cc/DzCFHw4C/stc.png">
       <div class="card-content">
-        <h3>IT Intern — STC (Saudi Telecom Company) | 06/2024 – 07/2024 | Jeddah</h3>
+        <h3>IT Intern — STC (Saudi Telecom Company)  
+        <span style="color:#1e90ff; font-size:0.9em;">06/2024 – 07/2024 — Jeddah</span></h3>
         <ul>
           <li>Network configuration, device setup, and troubleshooting of routers, switches, and firewalls.</li>
           <li>System monitoring, helpdesk operations, and IT maintenance for enterprise users.</li>
           <li>Observed fiber installation, network testing, and performance validation procedures.</li>
           <li>Documented network configuration steps and created internal knowledge-base articles.</li>
-          <li>Recorded incident findings and optimized troubleshooting protocols to improve future support efficiency.</li>
+          <li>Optimized troubleshooting protocols to improve future support efficiency.</li>
           <li><strong>Key Tools:</strong> Cisco, Wireshark, Nmap, VMware, Windows Server, Linux (Ubuntu/Kali)</li>
         </ul>
       </div>
@@ -117,9 +149,10 @@ footer { text-align: center; font-size: 0.9em; color: #aaaaaa; padding: 20px; }
   <section>
     <h2>Education</h2>
     <div class="card">
-      <img src="https://i.postimg.cc/t4wN5h2C/Untitled.png" alt="Education Logo">
+      <img src="https://i.postimg.cc/t4wN5h2C/Untitled.png">
       <div class="card-content">
-        <h3>Bachelor of Computer Science - Information Technology, Islamic University of Madinah | 07/2020 – 06/2025</h3>
+        <h3>Bachelor of Computer Science - Information Technology  
+        <span style="color:#1e90ff; font-size:0.9em;">07/2020 – 06/2025 — Islamic University of Madinah</span></h3>
         <p>Medinah, Saudi Arabia</p>
       </div>
     </div>
@@ -130,10 +163,11 @@ footer { text-align: center; font-size: 0.9em; color: #aaaaaa; padding: 20px; }
     <h2>Projects</h2>
     <div class="card">
       <a href="https://github.com/M0DY3/desert-rental-platform" target="_blank">
-        <img src="https://i.postimg.cc/7YSsbtVn/camp.jpg" alt="Online Desert Camping Platform">
+        <img src="https://i.postimg.cc/7YSsbtVn/camp.jpg">
       </a>
       <div class="card-content">
-        <h3>Online Desert Camping Rental Platform — Graduation Project | 05/2024 – 05/2025</h3>
+        <h3>Online Desert Camping Rental Platform  
+        <span style="color:#1e90ff; font-size:0.9em;">05/2024 – 05/2025</span></h3>
         <ul>
           <li>Full-stack web application using PHP, MySQL, HTML, CSS, JavaScript.</li>
           <li>Real-time booking, user reviews, and loyalty features using Agile methodology.</li>
@@ -149,39 +183,43 @@ footer { text-align: center; font-size: 0.9em; color: #aaaaaa; padding: 20px; }
 
     <div class="card">
       <a href="https://netriders.academy/completion-certificate/?cert_hash=f2b4a9afc89c54ab" target="_blank">
-        <img src="https://i.postimg.cc/yd91ZTtJ/Security-SYO-601-Prep.jpg" alt="Security+ SYO-601 Prep">
+        <img src="https://i.postimg.cc/yd91ZTtJ/Security-SYO-601-Prep.jpg">
       </a>
       <div class="card-content">
-        <h3>Security+ SYO-601 Prep — Netriders Academy, Aug 2025</h3>
+        <h3>Security+ SYO-601 Prep  
+        <span style="color:#1e90ff; font-size:0.9em;">Aug 2025</span></h3>
       </div>
     </div>
 
     <div class="card">
       <a href="https://certs.ine.com/4b1903a4-a8f8-47b8-936a-08dd197684f8#acc.fx9ce5t6" target="_blank">
-        <img src="https://i.postimg.cc/PrJ7VqfN/CPPT.png" alt="eCPPT Certification">
+        <img src="https://i.postimg.cc/PrJ7VqfN/CPPT.png">
       </a>
       <div class="card-content">
-        <h3>eCPPT — eLearnSecurity, Dec 2022</h3>
+        <h3>eCPPT — eLearnSecurity  
+        <span style="color:#1e90ff; font-size:0.9em;">Dec 2022</span></h3>
       </div>
     </div>
 
     <div class="card">
       <a href="https://certs.ine.com/48b499ab-eb79-4280-a520-0d22784e5b71#acc.i0Hn9rXt" target="_blank">
-        <img src="https://i.postimg.cc/50pPphZz/e-JPT.png" alt="eJPT Certification">
+        <img src="https://i.postimg.cc/50pPphZz/e-JPT.png">
       </a>
       <div class="card-content">
-        <h3>eJPT — eLearnSecurity, Jul 2021</h3>
+        <h3>eJPT — eLearnSecurity  
+        <span style="color:#1e90ff; font-size:0.9em;">Jul 2021</span></h3>
       </div>
     </div>
 
     <div class="card">
-      <img src="https://i.postimg.cc/KjRQq5kC/nccc.png" alt="NCCC Logo">
+      <img src="https://i.postimg.cc/KjRQq5kC/nccc.png">
       <div class="card-content">
-        <h3>National Cybersecurity & Coding Competition (NCCC 2024) — Imam Abdulrahman Bin Faisal University | 01/12/2023</h3>
+        <h3>National Cybersecurity & Coding Competition (NCCC 2024)  
+        <span style="color:#1e90ff; font-size:0.9em;">01/12/2023</span></h3>
         <ul>
           <li>Achieved 6th Place with the Islamic University of Madinah team.</li>
           <li>Competed in national CTF challenges focused on cybersecurity and programming.</li>
-          <li>Demonstrated strong teamwork, analytical skills, and applied cybersecurity knowledge.</li>
+          <li>Demonstrated strong teamwork and analytical skills.</li>
         </ul>
       </div>
     </div>
@@ -197,4 +235,3 @@ footer { text-align: center; font-size: 0.9em; color: #aaaaaa; padding: 20px; }
 
 </body>
 </html>
-
