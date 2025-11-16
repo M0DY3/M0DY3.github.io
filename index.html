@@ -1,52 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mohammed Allehyani - Professional CV</title>
-  <style>
-    /* Reset & Base */
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: 'Inter', Arial, sans-serif; background: #f5f5f5; color: #333; line-height: 1.6; }
-    a { text-decoration: none; color: #0366d6; }
-    a:hover { text-decoration: underline; }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mohammed Allehyani - Professional CV</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+/* Reset & base */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Inter', sans-serif; background: #f4f4f9; color: #333; line-height: 1.6; }
+a { color: #0366d6; text-decoration: none; }
+a:hover { text-decoration: underline; }
 
-    /* Container */
-    .container { max-width: 1000px; margin: auto; padding: 30px; }
+/* Container */
+.container { max-width: 950px; margin: 30px auto; padding: 20px; }
 
-    /* Header */
-    header { text-align: center; padding: 40px 0; }
-    header h1 { font-size: 2.5em; margin-bottom: 10px; }
-    header p { font-size: 1.1em; color: #555; margin-bottom: 15px; }
-    .contact-buttons a {
-      display: inline-block; margin: 5px; padding: 10px 20px; background: #0366d6; color: #fff;
-      border-radius: 5px; transition: 0.3s; font-weight: bold;
-    }
-    .contact-buttons a:hover { background: #024f9d; }
+/* Header */
+header { text-align: center; margin-bottom: 40px; }
+header h1 { font-size: 2.5em; margin-bottom: 5px; color: #1a1a1a; }
+header p { color: #555; margin-bottom: 15px; font-size: 1.1em; }
+.contact-buttons a {
+  display: inline-block; margin: 5px; padding: 10px 18px; background: #0366d6; color: #fff;
+  border-radius: 5px; font-weight: 600; transition: 0.3s;
+}
+.contact-buttons a:hover { background: #024f9d; }
 
-    /* Sections */
-    section { background: #fff; padding: 25px 30px; margin-bottom: 20px; border-radius: 10px; box-shadow: 0 3px 10px rgba(0,0,0,0.05); }
-    section h2 { border-left: 5px solid #0366d6; padding-left: 10px; margin-bottom: 15px; font-size: 1.6em; color: #0366d6; }
-    ul { margin-left: 20px; }
-    li { margin-bottom: 8px; }
+/* Sections */
+section { background: #fff; padding: 25px 30px; margin-bottom: 25px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+section h2 { font-size: 1.6em; color: #0366d6; margin-bottom: 15px; border-left: 5px solid #0366d6; padding-left: 10px; }
+ul { margin-left: 20px; }
+li { margin-bottom: 8px; }
 
-    /* Skills badges */
-    .skills span {
-      display: inline-block; background: #e1e4e8; color: #1a1a1a; padding: 5px 12px; margin: 5px;
-      border-radius: 5px; font-size: 0.9em;
-    }
+/* Skills badges */
+.skills span {
+  display: inline-block; background: #e1e4e8; color: #1a1a1a; padding: 6px 12px; margin: 5px;
+  border-radius: 5px; font-size: 0.9em;
+}
 
-    /* Cards for Experience & Projects */
-    .card { background: #f9f9f9; padding: 15px 20px; border-left: 4px solid #0366d6; margin-bottom: 15px; border-radius: 6px; }
+/* Cards for experience/projects */
+.card { background: #f9f9f9; padding: 15px 20px; border-left: 4px solid #0366d6; margin-bottom: 15px; border-radius: 6px; }
 
-    /* Footer */
-    footer { text-align: center; padding: 20px; font-size: 0.9em; color: #555; }
+/* Footer */
+footer { text-align: center; font-size: 0.9em; color: #555; padding: 20px; margin-top: 30px; }
 
-    /* Responsive */
-    @media(max-width: 600px) {
-      .contact-buttons a { display: block; width: 100%; margin-bottom: 10px; text-align: center; }
-    }
-  </style>
+/* Responsive */
+@media(max-width: 600px) {
+  .contact-buttons a { display: block; width: 100%; margin-bottom: 10px; text-align: center; }
+}
+</style>
 </head>
 <body>
 
@@ -54,7 +55,7 @@
   <!-- Header -->
   <header>
     <h1>Mohammed Allehyani</h1>
-    <p>Information Technology | Networking | Cybersecurity | System Administration</p>
+    <p>Information Technology | Networking | Cybersecurity | IT Support</p>
     <div class="contact-buttons">
       <a href="mailto:moh9238mmoohh@gmail.com">Email</a>
       <a href="https://www.linkedin.com/in/mohammed-allehyani" target="_blank">LinkedIn</a>
@@ -66,19 +67,7 @@
   <!-- Summary -->
   <section>
     <h2>Summary</h2>
-    <p>IT graduate specializing in networking, system administration, cybersecurity, and IT support. Experienced with Linux, Windows, macOS, and programming in Python, Java, C#, PHP, and SQL. Certified Penetration Tester (eJPT, eCPPT) with hands-on experience in network management, troubleshooting, virtualization, and web security testing. Passionate about system reliability and innovative IT solutions.</p>
-  </section>
-
-  <!-- Skills -->
-  <section>
-    <h2>Skills</h2>
-    <div class="skills">
-      <span>Linux</span><span>Windows</span><span>macOS</span><span>Networking</span>
-      <span>Penetration Testing</span><span>Wireshark</span><span>Burp Suite</span><span>Metasploit</span>
-      <span>Python</span><span>Java</span><span>C#</span><span>PHP</span><span>SQL</span>
-      <span>HTML/CSS</span><span>Flutter/Dart</span><span>REST APIs</span><span>Git & GitHub</span>
-      <span>Active Directory</span><span>Problem Solving</span><span>Teamwork</span>
-    </div>
+    <p>Information Technology graduate specializing in networking, system administration, cybersecurity, and IT support. Experienced in configuring and maintaining Linux, Windows, and macOS environments with strong programming ability in Python, Java, C#, PHP, and SQL. Certified Penetration Tester (eJPT, eCPPT) with hands-on experience in troubleshooting, network management, virtualization, and web security testing. Passionate about system reliability, cyber defense, and innovative IT solutions.</p>
   </section>
 
   <!-- Experience -->
@@ -91,8 +80,8 @@
         <li>Supported system monitoring, helpdesk operations, and IT maintenance for enterprise users.</li>
         <li>Observed fiber installation, network testing, and performance validation procedures.</li>
         <li>Documented network configuration steps and created internal knowledge-base articles.</li>
-        <li>Recorded incident findings and optimized troubleshooting protocols.</li>
-        <li><strong>Tools:</strong> Cisco, Wireshark, Nmap, VMware, Windows Server, Linux (Ubuntu/Kali)</li>
+        <li>Recorded incident findings and optimized troubleshooting protocols to improve efficiency.</li>
+        <li><strong>Key Tools:</strong> Cisco, Wireshark, Nmap, VMware, Windows Server, Linux (Ubuntu/Kali)</li>
       </ul>
     </div>
   </section>
@@ -103,15 +92,30 @@
     <p>Bachelor of Computer Science - Information Technology, Islamic University of Madinah | 07/2020 – 06/2025</p>
   </section>
 
+  <!-- Skills -->
+  <section>
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>Linux</span><span>Windows Server/Client</span><span>macOS</span>
+      <span>Networking</span><span>Routers/Switches/Firewalls</span><span>TCP/IP, DNS, DHCP</span>
+      <span>VLANs, Wi-Fi Optimization</span><span>Penetration Testing</span>
+      <span>Wireshark</span><span>Burp Suite</span><span>Metasploit</span>
+      <span>Python</span><span>Java</span><span>C#</span><span>PHP</span>
+      <span>SQL/MySQL</span><span>HTML/CSS</span><span>Dart (Flutter)</span>
+      <span>RESTful APIs</span><span>Git & GitHub</span><span>Active Directory</span>
+      <span>Problem Solving</span><span>Teamwork</span><span>Analytical Thinking</span>
+    </div>
+  </section>
+
   <!-- Projects -->
   <section>
     <h2>Projects</h2>
     <div class="card">
       <h3>Online Desert Camping Rental Platform — Graduation Project | 05/2024 – 05/2025</h3>
       <ul>
-        <li>Full-stack web application using PHP, MySQL, HTML, CSS, JavaScript.</li>
-        <li>Implemented booking system, user reviews, loyalty features using Agile methodology.</li>
-        <li>Focused on web security, database optimization, RESTful API integration.</li>
+        <li>Developed a full-stack web application using PHP, MySQL, HTML, CSS, and JavaScript.</li>
+        <li>Implemented real-time booking, user reviews, and loyalty features using Agile methodology.</li>
+        <li>Focused on web application security, database optimization, and RESTful API integration.</li>
       </ul>
     </div>
   </section>
@@ -120,9 +124,9 @@
   <section>
     <h2>Certifications & Awards</h2>
     <ul>
-      <li>eJPT — eLearnSecurity, Jul 2021</li>
-      <li>eCPPT — eLearnSecurity, Dec 2022</li>
       <li>Security+ SYO-601 Prep — Netriders Academy, Aug 2025</li>
+      <li>eCPPT — eLearnSecurity, Dec 2022</li>
+      <li>eJPT — eLearnSecurity, Jul 2021</li>
       <li>National Cybersecurity & Coding Competition (NCCC 2024) — 6th Place</li>
     </ul>
   </section>
@@ -131,7 +135,7 @@
   <footer>
     &copy; 2025 Mohammed Allehyani | <a href="https://github.com/M0DY3" target="_blank">GitHub</a>
   </footer>
-</div>
 
+</div>
 </body>
 </html>
